@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Obytes Starter",
+  title: "Senaia Starter",
   tagline: "A template for your next React Native project 🚀",
-  url: "https://starter.obytes.com",
+  url: "https://starter.senaia.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "obytes", // Usually your GitHub org/user name.
-  projectName: "obytes-starter", // Usually your repo name.
+  organizationName: "senaia", // Usually your GitHub org/user name.
+  projectName: "senaia-starter", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/obytes/react-native-template-obytes/tree/master/docs",
+            "https://github.com/senaia/react-native-template-senaia/tree/master/docs",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/obytes/react-native-template-obytes/tree/master/docs",
+            "https://github.com/senaia/react-native-template-senaia/tree/master/docs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -64,9 +64,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Obytes Starter",
+        title: "Senaia Starter",
         logo: {
-          alt: "Obytes Starter Logo",
+          alt: "Senaia Starter Logo",
           src: "img/logo.png",
         },
         items: [
@@ -77,13 +77,13 @@ const config = {
             label: "Docs",
           },
           {
-            href: "https://github.com/obytes/react-native-template-obytes",
+            href: "https://github.com/senaia/react-native-template-senaia",
             label: "GitHub",
             position: "right",
           },
           {
-            href: "https://obytes.com",
-            label: "Obytes",
+            href: "https://senaia.com",
+            label: "Senaia",
             position: "right",
           },
         ],
@@ -104,17 +104,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Obytes",
-                href: "https://obytes.com",
+                label: "Senaia",
+                href: "https://senaia.com",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/obytes/react-native-template-obytes",
+                href: "https://github.com/senaia/react-native-template-senaia",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Obytes. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Senaia. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -123,7 +123,7 @@ const config = {
       metadata: [
         {
           name:'title',
-          content: 'Obytes Starter | A template for your next React Native project 🚀',
+          content: 'Senaia Starter | A template for your next React Native project 🚀',
         },
         {
           name: "description",
@@ -132,7 +132,7 @@ const config = {
 
         {
           name: "og:title",
-          content: "Obytes Starter | A template for your next React Native project 🚀",
+          content: "Senaia Starter | A template for your next React Native project 🚀",
         },
         {
           name: "og:description",
@@ -140,16 +140,16 @@ const config = {
         },
         {
           name: "og:image",
-          content: "https://starter.obytes.com/img/cover.jpg",
+          content: "https://starter.senaia.com/img/cover.jpg",
         },
         {
           name: "og:url",
-          content: "https://starter.obytes.com",
+          content: "https://starter.senaia.com",
         },
 
         {
           name: "twitter:title",
-          content: "Obytes Starter | A template for your next React Native project 🚀",
+          content: "Senaia Starter | A template for your next React Native project 🚀",
         },
         {
           name: "twitter:description",
@@ -157,7 +157,7 @@ const config = {
         },
         {
           name: "twitter:image",
-          content: "https://starter.obytes.com/img/cover.jpg",
+          content: "https://starter.senaia.com/img/cover.jpg",
         },
         {
           name: "twitter:card",
@@ -165,7 +165,7 @@ const config = {
         },
         {
           name :'keywords',
-          content:"react-native, expo, typescript, tailwindcss, husky, lint-staged, react-navigation, react-query, react-hook-form, i18n, obytes, starter, template, react-native-template-obytes"
+          content:"react-native, expo, typescript, tailwindcss, husky, lint-staged, react-navigation, react-query, react-hook-form, i18n, senaia, starter, template, react-native-template-senaia"
         }
       ],
 

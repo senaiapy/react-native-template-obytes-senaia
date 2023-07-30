@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Create a new app
 
-Let's create a new React native project with obytes starter.
+Let's create a new React native project with senaia starter.
 
 ## Requirements
 
@@ -26,10 +26,10 @@ First make sure you have `pnpm` installed on your machine, if not you can instal
 npm install -g pnpm
 ```
 
-Start your project using `create-obytes-app` command:
+Start your project using `create-senaia-app` command:
 
 ```bash
-npx create-obytes-app@latest MyApp
+npx create-senaia-app@latest MyApp
 ```
 
 The command will create an expo app named `MyApp` and install all the dependencies added by the starter.

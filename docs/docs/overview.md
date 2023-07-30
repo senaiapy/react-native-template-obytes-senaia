@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-As a team of experienced developers at Obytes Mobile Tribe, we have spent years refining our approach to building high-quality React Native applications. Our starter kit is based on the best practices and tools that we have found to be most effective in our own projects.
+As a team of experienced developers at Senaia Mobile Tribe, we have spent years refining our approach to building high-quality React Native applications. Our starter kit is based on the best practices and tools that we have found to be most effective in our own projects.
 
 This starter kit has been thoroughly tested and proven successful in multiple projects over the past four years. It is regularly used by our team on a daily basis and has helped us deliver great results for our clients.
 
@@ -92,6 +92,6 @@ We value the feedback and contributions of our users, and we encourage you to le
 
 ## Contributors
 
-This starter is maintained by [Obytes mobile tribe team](https://www.obytes.com/team) and we welcome new contributors to join us in improving it. If you are interested in getting involved in the project, please don't hesitate to open an issue or submit a pull request.
+This starter is maintained by [Senaia mobile tribe team](https://www.senaia.com/team) and we welcome new contributors to join us in improving it. If you are interested in getting involved in the project, please don't hesitate to open an issue or submit a pull request.
 
-In addition to maintaining this starter kit, we are also available to work on custom projects and help you build your dream app. If you are looking for experienced and reliable developers to bring your app vision to life, please visit our website at [obytes.com/contact](https://www.obytes.com/contact) to get in touch with us. We would be happy to discuss your project in more detail and explore how we can help you achieve your goals.
+In addition to maintaining this starter kit, we are also available to work on custom projects and help you build your dream app. If you are looking for experienced and reliable developers to bring your app vision to life, please visit our website at [senaia.com/contact](https://www.senaia.com/contact) to get in touch with us. We would be happy to discuss your project in more detail and explore how we can help you achieve your goals.

@@ -399,7 +399,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/obytes/react-native-template-obytes.git"
+    "url": "git+https://github.com/senaiapy/react-native-template-senaia.git"
   },
   "packageManager": "pnpm@8.6.5"
 }
