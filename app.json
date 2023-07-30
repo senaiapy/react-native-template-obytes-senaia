@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "senaia",
-    "slug": "senaia",
+    "name": "Senaia",
+    "slug": "Senaia",
     "owner": "marceluphd",
     "version": "1.0.3",
     "orientation": "portrait",
@@ -25,14 +25,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.pyfoundation.senaia.development"
+      "bundleIdentifier": "com.pyfoundation.senaia"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.pyfoundation.senaia.development"
+      "package": "com.pyfoundation.senaia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
