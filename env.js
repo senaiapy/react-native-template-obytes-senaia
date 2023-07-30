@@ -71,13 +71,68 @@ const client = z.object({
   PACKAGE: z.string(),
   VERSION: z.string(),
 
+ 
   // ADD YOUR CLIENT ENV VARS HERE
   API_URL: z.string(),
+  API_URL_FEED: z.string(),
+  API_URL_G: z.string(),
+  SYNC_API_URL: z.string(),
+  API_API: z.string(),
+  AESKEY: z.string(),
+
+  SECRET_KEY: z.string(),
+  DB_VERSION: z.string(),
+  API_HTTP: z.string(),
+  API_WDB: z.string(),
+  API_SENAIA: z.string(),
+  APPINIT: z.string(),
+  KERNEL: z.string(),
+  DEBUG: z.string(),
+  POSITION: z.string(),
+  APPCOMPANY: z.string(),
+  baseURL: z.string(),
+  WHATSPHONE: z.string(),
+  MYWHATSPHONE: z.string(),
+  MAIL: z.string(),
+  SITE: z.string(),
+  SITECOMPANY: z.string(),
+  COIBFEINDEX: z.string(),
+  AUTOUPDATE: z.string(),
+  ROOT_PASSWORD: z.string(),
+  ROOT_VPA_NOMBRE: z.string(),
+  ROOT_VPA_ID: z.string(),
+  TIMEOUT_REQUEST: z.string(),
+  KEY: z.string(),
 });
 
 const buildTime = z.object({
   // ADD YOUR BUILD TIME ENV VARS HERE
   SECRET_KEY: z.string(),
+  DB_VERSION: z.string(),
+  API_HTTP: z.string(),
+  API_API: z.string(),
+  API_WDB: z.string(),
+  API_SENAIA: z.string(),
+  APPINIT: z.string(),
+  AESKEY: z.string(),
+
+  KERNEL: z.string(),
+  DEBUG: z.string(),
+  POSITION: z.string(),
+  APPCOMPANY: z.string(),
+  baseURL: z.string(),
+  WHATSPHONE: z.string(),
+  MYWHATSPHONE: z.string(),
+  MAIL: z.string(),
+  SITE: z.string(),
+  SITECOMPANY: z.string(),
+  COIBFEINDEX: z.string(),
+  AUTOUPDATE: z.string(),
+  ROOT_PASSWORD: z.string(),
+  ROOT_VPA_NOMBRE: z.string(),
+  ROOT_VPA_ID: z.string(),
+  TIMEOUT_REQUEST: z.string(),
+  KEY: z.string(),
 });
 
 /**
@@ -89,17 +144,72 @@ const _clientEnv = {
   BUNDLE_ID: withEnvSuffix(BUNDLE_ID),
   PACKAGE: withEnvSuffix(PACKAGE),
   VERSION: packageJSON.version,
+  //VERSION: process.env.VERSION,
+  AESKEY: process.env.AESKEY,
 
   // ADD YOUR ENV VARS HERE TOO
   API_URL: process.env.API_URL,
+  API_URL_FEED: process.env.API_URL_FEED,
+  API_URL_G: process.env.API_URL_G,
+  SYNC_API_URL: process.env.SYNC_API_URL,
+  API_API: process.env.API_API,
+
+  SECRET_KEY: process.env.SECRET_KEY,
+  DB_VERSION: process.env.DB_VERSION,
+  API_HTTP: process.env.API_HTTP,
+  API_WDB: process.env.API_WDB,
+  API_SENAIA: process.env.API_SENAIA,
+  APPINIT: process.env.APPINIT,
+  KERNEL: process.env.KERNEL,
+  DEBUG: process.env.DEBUG,
+  POSITION: process.env.POSITION,
+  APPCOMPANY: process.env.APPCOMPANY,
+  baseURL: process.env.baseURL,
+  WHATSPHONE: process.env.WHATSPHONE,
+  MYWHATSPHONE: process.env.MYWHATSPHONE,
+  MAIL: process.env.MAIL,
+  SITE: process.env.SITE,
+  SITECOMPANY: process.env.SITECOMPANY,
+  COIBFEINDEX: process.env.COIBFEINDEX,
+  AUTOUPDATE: process.env.AUTOUPDATE,
+  ROOT_PASSWORD: process.env.ROOT_PASSWORD,
+  ROOT_VPA_NOMBRE: process.env.ROOT_VPA_NOMBRE,
+  ROOT_VPA_ID: process.env.ROOT_VPA_ID,
+  TIMEOUT_REQUEST: process.env.TIMEOUT_REQUEST,
+  KEY: process.env.KEY,
 };
 
 /**
  * @type {Record<keyof z.infer<typeof buildTime> , string | undefined>}
  */
 const _buildTimeEnv = {
-  // ADD YOUR ENV VARS HERE TOO
-  SECRET_KEY: process.env.SECRET_KEY,
+ // ADD YOUR ENV VARS HERE TOO
+ SECRET_KEY: process.env.SECRET_KEY,
+ DB_VERSION: process.env.DB_VERSION,
+ API_HTTP: process.env.API_HTTP,
+ API_API: process.env.API_API,
+ API_WDB: process.env.API_WDB,
+ API_SENAIA: process.env.API_SENAIA,
+ AESKEY: process.env.AESKEY,
+
+ APPINIT: process.env.APPINIT,
+ KERNEL: process.env.KERNEL,
+ DEBUG: process.env.DEBUG,
+ POSITION: process.env.POSITION,
+ APPCOMPANY: process.env.APPCOMPANY,
+ baseURL: process.env.baseURL,
+ WHATSPHONE: process.env.WHATSPHONE,
+ MYWHATSPHONE: process.env.MYWHATSPHONE,
+ MAIL: process.env.MAIL,
+ SITE: process.env.SITE,
+ SITECOMPANY: process.env.SITECOMPANY,
+ COIBFEINDEX: process.env.COIBFEINDEX,
+ AUTOUPDATE: process.env.AUTOUPDATE,
+ ROOT_PASSWORD: process.env.ROOT_PASSWORD,
+ ROOT_VPA_NOMBRE: process.env.ROOT_VPA_NOMBRE,
+ ROOT_VPA_ID: process.env.ROOT_VPA_ID,
+ TIMEOUT_REQUEST: process.env.TIMEOUT_REQUEST,
+ KEY: process.env.KEY,
 };
 
 /**

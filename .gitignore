@@ -13,3 +13,10 @@ yarn-error.log
 /coverage
 # macOS
 .DS_Store
+
+downloads/*
+
+#env.js
+.env.development
+.env.production
+.env.staging

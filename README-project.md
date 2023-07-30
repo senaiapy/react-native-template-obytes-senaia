@@ -2,7 +2,7 @@
   <img alt="logo" src="./assets/icon.png" width="124px" style="border-radius:10px"/><br/>
 Mobile App </h1>
 
-> This Project is based on [Obytes starter](https://starter.obytes.com)
+> This Project is based on [pyfoundation starter](https://starter.pyfoundation.com)
 
 ## 🔗 Requirements
 
@@ -25,7 +25,7 @@ git clone https://github.com/user/repo-name
 
 cd ./repo-name
 
-pnpm install
+yarn
 ```
 
 To run the app on ios
@@ -42,11 +42,11 @@ pnpm android
 
 ## ✍️ Documentation
 
-- [Rules and Conventions](https://starter.obytes.com/docs/getting-started/rules-and-convetions)
-- [Project structure](https://starter.obytes.com/docs/getting-started/project-structure)
-- [Environment vars and config](https://starter.obytes.com/docs/getting-started/environment-vars-config)
-- [UI and Theming](https://starter.obytes.com/docs/ui-and-theme/ui-theming)
-- [Components](https://starter.obytes.com/docs/ui-and-theme/components)
-- [Forms](https://starter.obytes.com/docs/ui-and-theme/Forms)
-- [Data fetching](https://starter.obytes.com/docs/guides/data-fetching)
-- [Contribute to starter](https://starter.obytes.com/docs/contribute)
+- [Rules and Conventions](https://starter.pyfoundation.com/docs/getting-started/rules-and-convetions)
+- [Project structure](https://starter.pyfoundation.com/docs/getting-started/project-structure)
+- [Environment vars and config](https://starter.pyfoundation.com/docs/getting-started/environment-vars-config)
+- [UI and Theming](https://starter.pyfoundation.com/docs/ui-and-theme/ui-theming)
+- [Components](https://starter.pyfoundation.com/docs/ui-and-theme/components)
+- [Forms](https://starter.pyfoundation.com/docs/ui-and-theme/Forms)
+- [Data fetching](https://starter.pyfoundation.com/docs/guides/data-fetching)
+- [Contribute to starter](https://starter.pyfoundation.com/docs/contribute)

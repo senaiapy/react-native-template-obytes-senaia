@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "senaia",
+    "slug": "senaia",
+    "owner": "marceluphd",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "runtimeVersion": "1",
+    "updates": {
+      "url": "https://senaia.online/api/manifest",
+      "enabled": true,
+      "fallbackToCacheTimeout": 30000,
+      "codeSigningCertificate": "./code-signing/certificate.pem",
+      "codeSigningMetadata": {
+        "keyid": "main",
+        "alg": "rsa-v1_5-sha256"
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pyfoundation.senaia.development"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pyfoundation.senaia.development"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ffbccbaf-973f-4ceb-ab90-8c3fc1c5a78a"
+      }
+    }
+  }
+}
