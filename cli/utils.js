@@ -58,7 +58,7 @@ const updateConfig = async (projectName) => {
   });
   const replaced = contents
     .replace(/SenaiaApp/gi, projectName)
-    .replace(/com.senaia/gi, `com.${projectName.toLowerCase()}`);
+    .replace(/com.pyfoundation.senaia/gi, `com.${projectName.toLowerCase()}`);
 
   fs.writeFileSync(configPath, replaced, { spaces: 2 });
   const readmeFilePath = path.join(
