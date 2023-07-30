@@ -28,12 +28,12 @@ require('dotenv').config({
  * Such as: bundle id, package name, app name.
  *
  * You can add them to the .env file but we think it's better to keep them here as as we use prefix to generate this values based on the APP_ENV
- * for example: if the APP_ENV is staging, the bundle id will be com.obytes.staging
+ * for example: if the APP_ENV is staging, the bundle id will be com.senaia.staging
  */
 
-const BUNDLE_ID = 'com.obytes'; // ios bundle id
-const PACKAGE = 'com.obytes'; // android package name
-const NAME = 'ObytesApp'; // app name
+const BUNDLE_ID = 'com.pyfoundation.senaia'; // ios bundle id
+const PACKAGE = 'com.pyfoundation.senaia'; // android package name
+const NAME = 'Senaia'; // app name
 
 /**
  * We declare a function withEnvSuffix that will add a suffix to the variable name based on the APP_ENV
@@ -71,7 +71,6 @@ const client = z.object({
   PACKAGE: z.string(),
   VERSION: z.string(),
 
- 
   // ADD YOUR CLIENT ENV VARS HERE
   API_URL: z.string(),
   API_URL_FEED: z.string(),
@@ -183,33 +182,33 @@ const _clientEnv = {
  * @type {Record<keyof z.infer<typeof buildTime> , string | undefined>}
  */
 const _buildTimeEnv = {
- // ADD YOUR ENV VARS HERE TOO
- SECRET_KEY: process.env.SECRET_KEY,
- DB_VERSION: process.env.DB_VERSION,
- API_HTTP: process.env.API_HTTP,
- API_API: process.env.API_API,
- API_WDB: process.env.API_WDB,
- API_SENAIA: process.env.API_SENAIA,
- AESKEY: process.env.AESKEY,
+  // ADD YOUR ENV VARS HERE TOO
+  SECRET_KEY: process.env.SECRET_KEY,
+  DB_VERSION: process.env.DB_VERSION,
+  API_HTTP: process.env.API_HTTP,
+  API_API: process.env.API_API,
+  API_WDB: process.env.API_WDB,
+  API_SENAIA: process.env.API_SENAIA,
+  AESKEY: process.env.AESKEY,
 
- APPINIT: process.env.APPINIT,
- KERNEL: process.env.KERNEL,
- DEBUG: process.env.DEBUG,
- POSITION: process.env.POSITION,
- APPCOMPANY: process.env.APPCOMPANY,
- baseURL: process.env.baseURL,
- WHATSPHONE: process.env.WHATSPHONE,
- MYWHATSPHONE: process.env.MYWHATSPHONE,
- MAIL: process.env.MAIL,
- SITE: process.env.SITE,
- SITECOMPANY: process.env.SITECOMPANY,
- COIBFEINDEX: process.env.COIBFEINDEX,
- AUTOUPDATE: process.env.AUTOUPDATE,
- ROOT_PASSWORD: process.env.ROOT_PASSWORD,
- ROOT_VPA_NOMBRE: process.env.ROOT_VPA_NOMBRE,
- ROOT_VPA_ID: process.env.ROOT_VPA_ID,
- TIMEOUT_REQUEST: process.env.TIMEOUT_REQUEST,
- KEY: process.env.KEY,
+  APPINIT: process.env.APPINIT,
+  KERNEL: process.env.KERNEL,
+  DEBUG: process.env.DEBUG,
+  POSITION: process.env.POSITION,
+  APPCOMPANY: process.env.APPCOMPANY,
+  baseURL: process.env.baseURL,
+  WHATSPHONE: process.env.WHATSPHONE,
+  MYWHATSPHONE: process.env.MYWHATSPHONE,
+  MAIL: process.env.MAIL,
+  SITE: process.env.SITE,
+  SITECOMPANY: process.env.SITECOMPANY,
+  COIBFEINDEX: process.env.COIBFEINDEX,
+  AUTOUPDATE: process.env.AUTOUPDATE,
+  ROOT_PASSWORD: process.env.ROOT_PASSWORD,
+  ROOT_VPA_NOMBRE: process.env.ROOT_VPA_NOMBRE,
+  ROOT_VPA_ID: process.env.ROOT_VPA_ID,
+  TIMEOUT_REQUEST: process.env.TIMEOUT_REQUEST,
+  KEY: process.env.KEY,
 };
 
 /**

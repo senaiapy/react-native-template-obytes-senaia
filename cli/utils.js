@@ -57,8 +57,8 @@ const updateConfig = async (projectName) => {
     encoding: 'utf-8',
   });
   const replaced = contents
-    .replace(/ObytesApp/gi, projectName)
-    .replace(/com.obytes/gi, `com.${projectName.toLowerCase()}`);
+    .replace(/SenaiaApp/gi, projectName)
+    .replace(/com.senaia/gi, `com.${projectName.toLowerCase()}`);
 
   fs.writeFileSync(configPath, replaced, { spaces: 2 });
   const readmeFilePath = path.join(
@@ -100,7 +100,7 @@ const showMoreDetails = () => {
     chalk('📱 Run your project: \n\n'),
     chalk('   IOS     :  pnpm ios \n'),
     chalk('   Android :  pnpm android \n\n'),
-    chalk.bold('📚 Starter Documentation: https://starter.obytes.com \n')
+    chalk.bold('📚 Starter Documentation: https://starter.senaia.com \n')
   );
 };
 

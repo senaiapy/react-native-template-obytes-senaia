@@ -6,7 +6,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: Env.NAME,
   description: `${Env.NAME} Mobile App`,
-  slug: 'obytesapp',
+  slug: 'senaiaapp',
   version: Env.VERSION.toString(),
   orientation: 'portrait',
   icon: './assets/icon.png',

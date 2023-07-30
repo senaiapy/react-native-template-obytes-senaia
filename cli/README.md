@@ -1,15 +1,15 @@
 <p align="center">
-    <img alt="React Native Template Obytes" src="https://user-images.githubusercontent.com/11137944/93101697-808bc580-f6a2-11ea-8ce3-482be6ca456a.png" width="200" />
+    <img alt="React Native Template Senaia" src="https://user-images.githubusercontent.com/11137944/93101697-808bc580-f6a2-11ea-8ce3-482be6ca456a.png" width="200" />
 
 </p>
 <h1 align="center">
-  React Native Template Obytes
+  React Native Template Senaia
 </h1>
 
 ## 🚀 Quick start
 
 ```sh
-npx create-obytes-app MyApp
+npx create-senaia-app MyApp
 
 ```
 
@@ -17,7 +17,7 @@ npx create-obytes-app MyApp
 
 # Overview
 
-As a team of experienced developers at Obytes Mobile Tribe, we have spent years refining our approach to building high-quality React Native applications. Our starter kit is based on the best practices and tools that we have found to be most effective in our own projects.
+As a team of experienced developers at Senaia Mobile Tribe, we have spent years refining our approach to building high-quality React Native applications. Our starter kit is based on the best practices and tools that we have found to be most effective in our own projects.
 
 This starter kit has been thoroughly tested and proven successful in multiple projects over the past four years. It is regularly used by our team on a daily basis and has helped us deliver great results for our clients.
 
@@ -59,15 +59,15 @@ When creating this starter kit, we had several guiding principles in mind::
 
 ## ✍️ Documentation
 
-- [Create new project ](https://starter.obytes.com/docs/getting-started/create-new-app)
-- [Rules and Conventions](https://starter.obytes.com/docs/getting-started/rules-and-convetions)
-- [Project structure](https://starter.obytes.com/docs/getting-started/project-structure)
-- [Environment vars and config](https://starter.obytes.com/docs/getting-started/environment-vars-config)
-- [UI and Theming](https://starter.obytes.com/docs/ui-and-theme/ui-theming)
-- [Components](https://starter.obytes.com/docs/ui-and-theme/components)
-- [Forms](https://starter.obytes.com/docs/ui-and-theme/Forms)
-- [Data fetching](https://starter.obytes.com/docs/guides/data-fetching)
-- [Contribute to starter](https://starter.obytes.com/docs/contribute)
+- [Create new project ](https://starter.senaia.com/docs/getting-started/create-new-app)
+- [Rules and Conventions](https://starter.senaia.com/docs/getting-started/rules-and-convetions)
+- [Project structure](https://starter.senaia.com/docs/getting-started/project-structure)
+- [Environment vars and config](https://starter.senaia.com/docs/getting-started/environment-vars-config)
+- [UI and Theming](https://starter.senaia.com/docs/ui-and-theme/ui-theming)
+- [Components](https://starter.senaia.com/docs/ui-and-theme/components)
+- [Forms](https://starter.senaia.com/docs/ui-and-theme/Forms)
+- [Data fetching](https://starter.senaia.com/docs/guides/data-fetching)
+- [Contribute to starter](https://starter.senaia.com/docs/contribute)
 
 ## 😉 Why Expo?
 
@@ -117,9 +117,9 @@ We value the feedback and contributions of our users, and we encourage you to le
 
 ## Contributors
 
-This starter is maintained by [Obytes mobile tribe team](https://www.obytes.com/team) and we welcome new contributors to join us in improving it. If you are interested in getting involved in the project, please don't hesitate to open an issue or submit a pull request.
+This starter is maintained by [Senaia mobile tribe team](https://www.senaia.com/team) and we welcome new contributors to join us in improving it. If you are interested in getting involved in the project, please don't hesitate to open an issue or submit a pull request.
 
-In addition to maintaining this starter kit, we are also available to work on custom projects and help you build your dream app. If you are looking for experienced and reliable developers to bring your app vision to life, please visit our website at [obytes.com/contact](https://www.obytes.com/contact) to get in touch with us. We would be happy to discuss your project in more detail and explore how we can help you achieve your goals.
+In addition to maintaining this starter kit, we are also available to work on custom projects and help you build your dream app. If you are looking for experienced and reliable developers to bring your app vision to life, please visit our website at [senaia.com/contact](https://www.senaia.com/contact) to get in touch with us. We would be happy to discuss your project in more detail and explore how we can help you achieve your goals.
 
 ## 🔥 How to contribute?
 
@@ -134,7 +134,7 @@ We value the input and contributions of our community and look forward to workin
 
 ## ❓ FAQ
 
-If you have any questions about the starter and want answers, please check out the [Discussions](https://github.com/obytes/react-native-template-obytes/discussions) page.
+If you have any questions about the starter and want answers, please check out the [Discussions](https://github.com/senaia/react-native-template-senaia/discussions) page.
 
 ## 🔖 License
 

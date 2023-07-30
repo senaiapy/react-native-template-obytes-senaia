@@ -3,7 +3,7 @@
 const chalk = require('chalk');
 const { runCommand, cleanUpFolder, showMoreDetails } = require('./utils.js');
 
-const createObytesApp = async () => {
+const createSenaiaApp = async () => {
   // get project name from command line
   const projectName = process.argv[2];
   // check if project name is provided
@@ -12,8 +12,8 @@ const createObytesApp = async () => {
     process.exit(1);
   }
 
-  // create a new project based on obytes template
-  const cloneStarter = `git clone --depth=1  https://github.com/obytes/react-native-template-obytes.git ${projectName}`;
+  // create a new project based on senaia template
+  const cloneStarter = `git clone --depth=1  https://github.com/senaiapy/react-native-template-senaia.git ${projectName}`;
 
   // run init command and clean up project folder
   await runCommand(cloneStarter, {
@@ -34,4 +34,4 @@ const createObytesApp = async () => {
   showMoreDetails();
 };
 
-createObytesApp();
+createSenaiaApp();
